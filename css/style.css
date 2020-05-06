@@ -1,0 +1,853 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid white; */
+}
+header {
+    height: 100%;
+    background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.top-header {
+    font-size: 4rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 150;
+    color: honeydew;
+    padding-left: 8rem;
+}
+
+.my-border {
+    /* border: 5px solid red; */
+    margin-right: 1rem;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    transition: transform 200ms ease-in-out;
+    color: honeydew;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.header-link {
+    border: 1px solid burlywood;
+    padding: 1rem;
+    text-decoration: none;
+    transition: transform 200ms ease-in-out;
+    color: honeydew;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.container-fluid hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ml-0 {
+    margin-left:20px !important;
+  }
+.ml-1 {
+    margin-left:40% !important;
+  }
+  .ml-2 {
+    margin-left:35% !important;
+  }
+.mt-1 {
+    margin-top: 2% !important;
+} 
+.mb-0 {
+    margin-bottom: 50px !important;
+}
+
+.mt-2 {
+    margin-top: 5rem !important;
+}
+
+.pt-0 {
+    padding-top: 8rem !important;
+}
+
+.section-height  {
+    height: 100vh;
+}
+
+/* === PROJECTS SECTION == */
+
+/* -- More Project's Button Margin's  -- */
+.container-fluid .row .col-md-4 .btn-more-projects {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 37rem;
+    width: 35%;
+}
+
+/* === --START OF "DEVELOPER SPACE EXPERT ADVICE" SECTION  === */
+.info {
+    height: 60%;
+    opacity: 0.85;
+    background-image: url("../images/lauren-mancke-aOC7TSLb1o8-unsplashUpdate2.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    color: #fff; 
+}
+
+
+.description {
+    background-color: #303030;
+    color: honeydew;
+}
+.p-0 {
+    padding: 8rem !important;
+}
+
+
+.img-section {
+    height: 100%;
+    justify-content: center;
+    background-color: #fff;
+    padding-left: 18rem;
+}
+
+strong {
+    font-size: 30px;
+}
+
+
+.footer-height  {
+    height: 55vh;
+}
+
+/* .card-size{
+    width: 55%;
+} */
+
+/*--- Media Queries ---*/
+@media (max-width: 2170px) and (max-width: 1312px){
+/* =========================================
+    NAVBAR SECTION
+   ========================================= */
+
+   .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+       font-size: 1rem;
+       padding: 1rem;
+   }
+/* =========================================
+    HEADER SECTION
+   ========================================= */
+   .my-border .row .btn {
+        font-size: 1rem;
+   }   
+/* =========================================
+    WHAT I DO SECTION
+   ========================================= */  
+    .welcome hr {
+        border-top: 4px solid #b4b4b4;
+        width: 98%;
+        margin-top: 0.6rem;
+        margin-bottom: 2rem;
+    }    
+    .lead {
+        font-size: 1.5rem;
+    }
+    .container-fluid .row .col-md-4 .card .card-body .card-title {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    .container-fluid .row .col-md-4 .card .card-body .card-text {
+        font-size: 1rem;
+    }
+    .container-fluid .row .col-md-4 .card .card-body .btn-outline-secondary {
+        margin-left: 0rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+/* =========================================
+    WHO I AM SECTION
+   ========================================= */ 
+    .container .lead {
+        font-size: 1.3rem;
+    }
+
+/* === PROJECTS SECTION == */
+    .container-fluid .row .col-md-4 .card .btn {
+        font-size: 1rem;
+    }
+/* -- More Project's Button Margin's  -- */
+    .container-fluid .row .col-md-4 .btn-more-projects {
+        margin-top: 8rem;
+        margin-left: 60rem;
+        width: 35%;
+        font-size: 2rem;
+    }
+/* =========================================
+    DEVELOPER SPACE EXPERT SECTION
+   ========================================= */
+   .container-fluid .row .col-lg-6 .display-5 {
+       margin-top: 13rem;
+   }
+   .info {
+    opacity: 0.85;
+    background-color: grey;
+}
+/* =========================================
+    START OF "OUR PHILOSOPHY" SECTION 
+   ========================================= */ 
+    .container-fluid .row .col-lg-6 > .display-5 {
+        font-size: 3rem;
+       
+    }
+/* =========================================
+    FOOTER SECTION
+   ========================================= */ 
+    .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
+        font-size: 2rem;
+        
+    }
+    .container-fluid .row .col-12 {
+        font-size: 1.5rem;
+    }
+    .ml-2 {
+        margin-left:30.1% !important;
+      }
+}
+
+@media (min-width: 1946px) {
+    /* === PROJECTS SECTION == */
+    /* -- More Project's Button Margin's  -- */
+        .container-fluid .row .col-md-4 .btn-more-projects {
+            margin-top: 8rem;
+            margin-left: 55rem;
+            width: 38%;
+            font-size: 2rem;
+        }
+    }
+    
+    @media (min-width: 1794px) {
+        /* === PROJECTS SECTION == */
+        /* -- More Project's Button Margin's  -- */
+            .container-fluid .row .col-md-4 .btn-more-projects {
+                margin-top: 8rem;
+                margin-left: 50rem;
+                width: 40%;
+                font-size: 2rem;
+            }
+        }
+    @media (min-width: 1674px) {
+    /* === PROJECTS SECTION == */
+    /* -- More Project's Button Margin's  -- */
+           .container-fluid .row .col-md-4 .btn-more-projects {
+                    margin-top: 8rem;
+                    margin-left: 45rem;
+                    width: 50%;
+                    font-size: 2rem;
+                }
+            }    
+    @media (max-width: 1538px){
+    /*DEVELOPER SPACE EXPERT SECTION*/
+        .display-3 {
+            font-size: 2rem;
+        }
+    }       
+    @media (max-width: 1312px){
+    /*DEVELOPER SPACE EXPERT SECTION*/
+        .display-3 {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 1310px){
+    /* === PROJECTS SECTION == */
+    /* -- More Project's Button Margin's  -- */
+        .container-fluid .row .col-md-4 .btn-more-projects {
+            margin-top: 8rem;
+            margin-left: 33rem;
+            width: 60%;
+            font-size: 2rem;
+        }
+    
+    
+    /* =========================================
+    NAVBAR SECTION
+   ========================================= */
+
+   .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+/* =========================================
+ HEADER SECTION
+========================================= */
+.my-border .row .btn {
+     font-size: 1.5rem;
+}   
+/* =========================================
+ WHAT I DO SECTION
+========================================= */  
+ .welcome hr {
+     border-top: 4px solid #b4b4b4;
+     width: 98%;
+     margin-top: 0.6rem;
+     margin-bottom: 2rem;
+ }    
+ .lead {
+     font-size: 1.8rem;
+ }
+ .container-fluid .row .col-md-4 .card .card-body .card-title {
+     text-align: center;
+     padding-bottom: 1em;
+ }
+ .container-fluid .row .col-md-4 .card .card-body .card-text {
+     font-size: 1.5rem;
+ }
+ .container-fluid .row .col-md-4 .card .card-body .btn-outline-secondary {
+     margin-left: 0rem;
+     margin-top: 1rem;
+     font-size: 1.5rem;
+ }
+
+/* =========================================
+ WHO I AM SECTION
+========================================= */ 
+ .container .lead {
+     font-size: 1.8rem;
+ }
+
+/* === PROJECTS SECTION == */
+ .container-fluid .row .col-md-4 .card .btn {
+     font-size: 1.3rem;
+ }
+
+/* =========================================
+ DEVELOPER SPACE EXPERT SECTION
+========================================= */
+.container-fluid .row .col-lg-6 .display-5 {
+    margin-top: 13rem;
+}
+.info {
+ opacity: 0.85;
+ background-color: grey;
+}
+/* =========================================
+ START OF "OUR PHILOSOPHY" SECTION 
+========================================= */ 
+ .container-fluid .row .col-lg-6 > .display-5 {
+     font-size: 3rem;
+    
+ }
+/* =========================================
+ FOOTER SECTION
+========================================= */ 
+ .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
+     font-size: 1.8rem;
+     
+ }
+ .container-fluid .row .col-12 {
+     font-size: 1.5rem;
+ }
+ .ml-2 {
+     margin-left:19% !important;
+   }
+}
+
+@media (max-width: 1366px){
+    /* =========================================
+ FOOTER SECTION
+========================================= */ 
+ .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
+    font-size: 1.2rem;
+    
+}
+.container-fluid .row .col-12 {
+    font-size: 1rem;
+}
+.ml-2 {
+    margin-left:27% !important;
+  }
+}
+
+}
+
+@media  (max-width: 992px){
+    .welcome display-5 {
+        font-size: 2rem;
+    }
+/* === PROJECTS SECTION == */
+/* -- More Project's Button Margin's  -- */
+    .container-fluid .row .col-md-4 .btn-more-projects {
+        margin-top: 8rem;
+        margin-left: 20rem;
+        width: 85%;
+        font-size: 2rem;
+    }
+/*DEVELOPER SPACE EXPERT SECTION*/
+    .display-3 {
+        font-size: 2.2rem;
+    }
+.info {
+ opacity: 0.8;
+ background-color: black;
+}        
+/* =========================================
+    FOOTER SECTION
+   ========================================= */ 
+ .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
+    font-size: 1.8rem;
+    
+}
+.container-fluid .row .col-12 {
+    font-size: 1.5rem;
+}
+.ml-2 {
+    margin-left:8% !important;
+  }
+
+}
+@media (max-width: 768px){
+    display-5 {
+        font-size: 1.2rem;
+    }
+    .container-fluid section-height {
+        height: 0;
+    }
+}
+
+@media (max-width: 767px){
+    .welcome display-5 {
+        font-size: 1rem;
+    }
+    .display-3 {
+        font-size: 2.5rem;
+    }
+    .container-fluid section-height {
+        height: 80%;
+    }
+
+    .card-size{
+        width: 35%;
+        /* height: 30%; */
+        margin-left: 15rem;
+    }
+
+/* === START OF "DEVELOPER SPACE EXPERT ADVICE" SECTION === */
+    .info {
+        height: 30%;
+        background-image: url("../images/lauren-mancke-aOC7TSLb1o8-unsplashUpdate2.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;  
+        color: #fff; 
+    }
+
+}
+
+@media (max-width: 766px){
+     /* =========================================
+    NAVBAR SECTION
+    ========================================= */       
+
+    .navbar-expand-md .container-fluid .navbar-toggler {
+        background-color: cornsilk;
+        color: black;
+    }
+/* =========================================
+    HEADER SECTION
+   ========================================= */
+   .my-border .row .btn {
+    font-size: 1.5rem;
+}     
+
+/* =========================================
+    WHAT I DO SECTION
+   ========================================= */  
+   .welcome hr {
+    border-top: 4px solid #b4b4b4;
+    width: 98%;
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+}    
+.lead {
+    font-size: 1.5rem;
+}
+.container-fluid .row .col-md-4 .card .card-body .card-title {
+    text-align: center;
+    padding-bottom: 1em;
+}
+.container-fluid .row .col-md-4 .card .card-body .card-text {
+    font-size: 1.4rem;
+}
+.container-fluid .row .col-md-4 .card .card-body .btn-outline-secondary {
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}    
+ /* =========================================
+    WHAT I DO SECTION END
+    ========================================= */      
+
+/* =========================================
+    WHO I AM SECTION
+   ========================================= */ 
+   .container .lead {
+    font-size: 1.4rem;
+}
+
+
+ /* =========================================
+    MY PROJECT'S STYLING SECTION
+    ========================================= */
+
+    /* -- Hide Card Images --*/
+    .card-size img {
+        display: none;
+    }
+    /* -- Format card widths and apply transition settings --*/
+    .card-size{
+        width: 80%;
+        margin: auto;
+        height: 15rem;
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    /* -- Apply transition settings for text and formatting --*/
+    .container-fluid .row .col-md-4 .card-size .card-body {
+        transition: .5s ease;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 49%;
+        text-align: center;
+        font-size: 1rem;
+        color: #fff;
+    }
+    /* -- Card Button's formatting --*/
+    .container-fluid .row .col-md-4 .card-size .card-body .btn-primary {
+        align-content: center;
+        margin-right: 19rem;
+        width: 38%;
+        font-size: 1rem;
+    }
+
+    /* === CARD BACKGROUND IMAGES === */
+
+    /* -- Card 1 --*/
+    #background-dashboard {
+        background-image: url("../images/dashboard-v1update2.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+
+    }
+    /* -- Card 2 --*/
+    #background-social {
+        background-image: url("../images/zoom-app.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+    }
+    /* -- Card 3 --*/
+    #background-photo {
+        background-image: url("../images/photo-appOne.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+    }
+
+    /* === CARD HOVER EFFECTS === */
+
+    /* -- Card 1 --*/
+    #background-dashboard:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-dashboard:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    /* - Card 2 --*/
+    #background-photo:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-photo:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    /* -- Card 3 --*/
+    #background-social:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-social:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+ 
+    /* === FULL-STACK DEVELOPER BACKGROUND IMAGE ===*/
+
+    /* --- Resize background image size --*/
+    .info {
+        height: 60%;
+        background-image: url("../images/lauren-mancke-aOC7TSLb1o8-unsplashUpdate2.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;  
+        color: #fff; 
+    }
+
+    /* -- More Project's Button Margin's --*/
+    .container-fluid .row .col-md-4 .btn {
+        margin-top: 2rem;
+        margin-left: 13rem;
+        width: 40%;
+        font-size: 2rem;
+    }
+
+ /* =========================================
+    MY PROJECT'S STYLING SECTION END
+    ========================================= */
+
+/* =========================================
+    FOOTER SECTION
+   ========================================= */ 
+   .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
+        display: none;
+    }
+    .container-fluid .row .col-12 {
+        font-size: 1.3rem;
+    }
+    .ml-2 {
+        margin-left:30.1% !important;
+    }
+}
+
+@media (max-width: 687px){
+    .welcome display-5 {
+        font-size: 1rem;
+    }
+    .display-3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px){
+
+ /* =========================================
+    NAVBAR SECTION
+    ========================================= */       
+
+    .navbar-expand-md .container-fluid .navbar-toggler {
+        background-color: cornsilk;
+        color: black;
+    }
+/* =========================================
+    HEADER SECTION
+   ========================================= */
+   .my-border .row .btn {
+    font-size: 1.5rem;
+}     
+
+/* =========================================
+    WHAT I DO SECTION
+   ========================================= */  
+   .welcome hr {
+    border-top: 4px solid #b4b4b4;
+    width: 98%;
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+}    
+.lead {
+    font-size: 1.5rem;
+}
+.container-fluid .row .col-md-4 .card .card-body .card-title {
+    text-align: center;
+    padding-bottom: 1em;
+}
+.container-fluid .row .col-md-4 .card .card-body .card-text {
+    font-size: 1.4rem;
+}
+.container-fluid .row .col-md-4 .card .card-body .btn-outline-secondary {
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}    
+ /* =========================================
+    WHAT I DO SECTION END
+    ========================================= */      
+
+/* =========================================
+    WHO I AM SECTION
+   ========================================= */ 
+   .container .lead {
+    font-size: 1.4rem;
+}
+
+
+ /* =========================================
+    MY PROJECT'S STYLING SECTION
+    ========================================= */
+
+    /* -- Hide Card Images --*/
+    .card-size img {
+        display: none;
+    }
+    /* -- Format card widths and apply transition settings --*/
+    .card-size{
+        width: 80%;
+        margin: auto;
+        height: 15rem;
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    /* -- Apply transition settings for text and formatting --*/
+    .container-fluid .row .col-md-4 .card-size .card-body {
+        transition: .5s ease;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 49%;
+        text-align: center;
+        font-size: 1rem;
+        color: #fff;
+    }
+    /* -- Card Button's formatting --*/
+    .container-fluid .row .col-md-4 .card-size .card-body .btn-primary {
+        align-content: center;
+        margin-right: 19rem;
+        width: 38%;
+        font-size: 1rem;
+    }
+
+    /* === CARD BACKGROUND IMAGES === */
+
+    /* -- Card 1 --*/
+    #background-dashboard {
+        background-image: url("../images/dashboard-v1update2.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+
+    }
+    /* -- Card 2 --*/
+    #background-social {
+        background-image: url("../images/zoom-app.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+    }
+    /* -- Card 3 --*/
+    #background-photo {
+        background-image: url("../images/photo-appOne.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+    }
+
+    /* === CARD HOVER EFFECTS === */
+
+    /* -- Card 1 --*/
+    #background-dashboard:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-dashboard:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    /* - Card 2 --*/
+    #background-photo:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-photo:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    /* -- Card 3 --*/
+    #background-social:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-social:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+ 
+    /* === FULL-STACK DEVELOPER BACKGROUND IMAGE ===*/
+
+    /* --- Resize background image size --*/
+    .info {
+        height: 60%;
+        background-image: url("../images/lauren-mancke-aOC7TSLb1o8-unsplashUpdate2.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;  
+        color: #fff; 
+    }
+
+    /* -- More Project's Button Margin's --*/
+    .container-fluid .row .col-md-4 .btn {
+        margin-top: 2rem;
+        margin-left: 7rem;
+        width: 55%;
+        font-size: 2rem;
+    }
+
+ /* =========================================
+    MY PROJECT'S STYLING SECTION END
+    ========================================= */
+
+/* =========================================
+    FOOTER SECTION
+   ========================================= */ 
+   .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
+        display: none;
+    }
+    .container-fluid .row .col-12 {
+        font-size: 1.3rem;
+    }
+    .ml-2 {
+        margin-left:30.1% !important;
+    }
+}
