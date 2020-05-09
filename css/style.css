@@ -11,6 +11,8 @@ header {
     background-repeat: no-repeat;   
 }
 
+
+
 .top-header {
     font-size: 4rem;
     font-family: 'Baloo Bhai 2', cursive;
@@ -25,7 +27,7 @@ header {
 }
 
 a {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
     transition: transform 200ms ease-in-out;
     color: honeydew;
@@ -508,8 +510,13 @@ strong {
     ========================================= */       
 
     .navbar-expand-md .container-fluid .navbar-toggler {
-        background-color: cornsilk;
-        color: black;
+        background-color: grey;
+        opacity: 0.45;
+        
+    }
+    .navbar-expand-md .container-fluid .navbar-toggler .navbar-toggler-icon {
+        color: black !important;
+        width: auto;
     }
 /* =========================================
     HEADER SECTION
@@ -863,7 +870,7 @@ display: none;
         -ms-transform: translate(-50%, -50%);
         position: absolute;
         top: 50%;
-        left: 45%;
+        left: 55%;
         text-align: center;
         font-size: 1rem;
         color: #fff;
@@ -1017,7 +1024,7 @@ display: none;
     height: 55vh;
     width: 120%;
     position: relative;
-    margin-top: 55rem;
+    margin-top: 5rem;
     justify-self: center;
 }
 }
