@@ -1049,7 +1049,7 @@ display: none;
 
     .section-height {
         height: 50vh;
-        width: 95%;
+        width: 100%;
         position: absolute;
     }
 
@@ -1060,7 +1060,7 @@ display: none;
         margin: auto;
         margin-bottom: 2rem;
         margin-right: 2rem;
-        margin-left: 2.5rem;
+        margin-left: 2.8rem;
         height: 10rem;
         opacity: 1;
         transition: .5s ease;
