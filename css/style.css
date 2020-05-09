@@ -65,6 +65,9 @@ a {
     margin-bottom: 1rem;
 }
 
+.margin-left-header {
+    margin-left: 110px;
+}
 .ml-0 {
     margin-left:20px !important;
   }
@@ -102,6 +105,7 @@ a {
     margin-left: 37rem;
     width: 35%;
 }
+
 
 /* === --START OF "DEVELOPER SPACE EXPERT ADVICE" SECTION  === */
 .info {
@@ -185,6 +189,10 @@ strong {
         font-size: 1rem;
     }
 
+    .mobile-button {
+        display: none;
+    }
+
 /* =========================================
     WHO I AM SECTION
    ========================================= */ 
@@ -255,6 +263,9 @@ strong {
                 width: 40%;
                 font-size: 2rem;
             }
+            .mobile-button {
+                display: none;
+            }
         }
     @media (min-width: 1674px) {
     /* === PROJECTS SECTION == */
@@ -265,17 +276,29 @@ strong {
                     width: 50%;
                     font-size: 2rem;
                 }
+            
+                .mobile-button {
+                    display: none;
+                }
             }    
     @media (max-width: 1538px){
     /*DEVELOPER SPACE EXPERT SECTION*/
         .display-3 {
             font-size: 2rem;
         }
+
+        .mobile-button {
+            display: none;
+        }
     }       
     @media (max-width: 1312px){
     /*DEVELOPER SPACE EXPERT SECTION*/
         .display-3 {
             font-size: 2rem;
+        }
+
+        .mobile-button {
+            display: none;
         }
     }
 
@@ -329,6 +352,9 @@ strong {
      font-size: 1.5rem;
  }
 
+ .mobile-button {
+    display: none;
+}
 /* =========================================
  WHO I AM SECTION
 ========================================= */ 
@@ -395,6 +421,10 @@ strong {
     .welcome display-5 {
         font-size: 2rem;
     }
+
+    .mobile-button {
+        display: none;
+    }
 /* === PROJECTS SECTION == */
 /* -- More Project's Button Margin's  -- */
     .container-fluid .row .col-md-4 .btn-more-projects {
@@ -433,6 +463,10 @@ strong {
     .container-fluid section-height {
         height: 0;
     }
+
+    .mobile-button {
+        display: none;
+    }
 }
 
 @media (max-width: 767px){
@@ -450,6 +484,10 @@ strong {
         width: 35%;
         /* height: 30%; */
         margin-left: 15rem;
+    }
+
+    .mobile-button {
+        display: none;
     }
 
 /* === START OF "DEVELOPER SPACE EXPERT ADVICE" SECTION === */
@@ -503,7 +541,11 @@ strong {
     margin-left: 10rem;
     margin-top: 1rem;
     font-size: 1.4rem;
-}    
+}
+
+.mobile-button {
+    display: none;
+}
  /* =========================================
     WHAT I DO SECTION END
     ========================================= */      
@@ -659,6 +701,10 @@ strong {
     }
     .display-3 {
         font-size: 1.5rem;
+    }
+
+    .mobile-button {
+        display: none;
     }
 }
 
@@ -851,3 +897,307 @@ strong {
         margin-left:30.1% !important;
     }
 }
+
+/* =========================================
+    iPhone 6/7/8 Resolution
+   ========================================= */ 
+
+   
+@media (max-width: 375px) {
+/* =========================================
+    HTML & BODY SECTION
+   ========================================= */
+   html, body {
+    height: auto;
+    width: auto;
+    /* border: 5px solid white; */
+}     
+    /* =========================================
+    NAVBAR SECTION
+    ========================================= */       
+
+    .navbar-expand-md .container-fluid .navbar-toggler {
+       display: none;
+    }
+/* =========================================
+    HEADER SECTION
+   ========================================= */
+   
+   .top-header {
+    font-size: 2.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 150;
+    color: honeydew;
+    padding-left: 5rem;
+}
+
+   header {
+    height: 60%;
+    background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;   
+} 
+
+    .margin-left-header {
+        margin-left: 45px;
+    }
+   .my-border .row .btn {
+    font-size: 10px;
+    }
+    .my-border .row .btn-outline-light {
+        margin-left: 20px;
+    }      
+
+    .my-border .row .ml-0 {
+        position: absolute;
+        margin-top: 3rem;
+        width: 7.3rem;
+    } 
+/* =========================================
+    WHAT I DO SECTION
+   ========================================= */  
+
+   .container-fluid .padding {
+       padding-bottom: 0rem;
+   }
+   .welcome hr {
+    border-top: 2px solid #b4b4b4;
+    margin-right: 4rem;
+    margin-left: 0rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}  
+
+.container-fluid .welcome .col {
+    margin-right: 5rem;
+}
+
+.container-fluid .welcome .col .display-4 {
+    font-size: 1.5rem;
+    
+}  
+.lead {
+    font-size: 1rem;
+}
+
+.container-fluid .row .col-md-4 .temp-div .card {
+    width: 80%;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.container-fluid .row .col-md-4 .temp-div .card .card-body {
+    width: 85%;
+    margin: auto;
+    height: 10rem;
+}
+
+.container-fluid .row .col-md-4 .card .card-body .card-title {
+    text-align: left;
+    font-size: 1rem;
+    padding-bottom: 1em;
+}
+.container-fluid .row .col-md-4 .card .card-body .card-text {
+    text-align: left;
+    font-size: 0.8rem;
+}
+.container-fluid .row .col-md-4 .card .card-body .btn-outline-secondary {
+display: none;
+}
+
+.container-fluid .mobile-button {
+    margin-left: 6rem;
+}
+ /* =========================================
+    WHAT I DO SECTION END
+    ========================================= */      
+
+/* =========================================
+    WHO I AM SECTION
+   ========================================= */ 
+
+   .container {
+       display: none;
+   }
+
+/* =========================================
+    END OF WHO I AM SECTION
+   ========================================= */ 
+
+ /* =========================================
+    MY PROJECT'S STYLING SECTION
+    ========================================= */
+
+    /* -- Hide Card Images --*/
+    .card-size img {
+        display: none;
+    }
+
+    .mt-2 {
+        margin-top: 0rem !important;
+    }
+
+    .section-height {
+        height: 50vh;
+        width: 50vh;
+        position: absolute;
+    }
+
+
+    /* -- Format card widths and apply transition settings --*/
+    .card-size{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        height: 10rem;
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+
+
+    /* -- Apply transition settings for text and formatting --*/
+    .container-fluid .row .col-md-4 .card-size .card-body {
+        transition: .5s ease;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        position: relative;
+        top: 5%;
+        left: 5%;
+        text-align: center;
+        font-size: 1rem;
+        color: #fff;
+    }
+    /* -- Card Button's formatting --*/
+    .container-fluid .row .col-md-4 .card-size .card-body .btn-primary {
+        align-content: center;
+        margin-right: 8rem;
+        width: 45%;
+        font-size: 1rem;
+        
+        position: absolute;
+        
+    }
+
+    /* === CARD BACKGROUND IMAGES === */
+
+    /* -- Card 1 --*/
+    #background-dashboard {
+        background-image: url("../images/dashboard-v1update2.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+
+    }
+    /* -- Card 2 --*/
+    #background-social {
+        background-image: url("../images/zoom-app.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+    }
+    /* -- Card 3 --*/
+    #background-photo {
+        background-image: url("../images/photo-appOne.jpg");
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff; 
+    }
+
+    /* === CARD HOVER EFFECTS === */
+
+    /* -- Card 1 --*/
+    #background-dashboard:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-dashboard:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    /* - Card 2 --*/
+    #background-photo:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-photo:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    /* -- Card 3 --*/
+    #background-social:hover {
+        opacity: 0.6;
+        background-color: black;
+    }
+    #background-social:hover .card-body{
+        opacity: 2;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+ 
+    /* === FULL-STACK DEVELOPER BACKGROUND IMAGE ===*/
+
+    /* --- Resize background image size --*/
+    .info {
+       display: none;
+    }
+
+    /* -- More Project's Button Margin's --*/
+    .container-fluid .row .col-md-4 .btn {
+        margin-top: 2rem;
+        margin-left: 4rem;
+        width: 45%;
+        font-size: 1rem;
+    }
+
+ /* =========================================
+    MY PROJECT'S STYLING SECTION END
+    ========================================= */
+
+    .min-view {
+        display: none;
+    }
+
+
+
+/* =========================================
+    FOOTER SECTION
+   ========================================= */ 
+   .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
+        display: none;
+    }
+
+    .description .container-fluid .row .col-12 .display-3 {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-fluid .row .col-12 {
+        font-size: 0.70rem;
+        bottom: 0rem;
+        padding-left: 0rem;
+    }
+    .ml-2 {
+        margin-left:25% !important;
+    }
+
+    .footer-height  {
+        height: 35vh;
+        width: 80%;
+        position: relative;
+        border: 5px solid red;
+        margin-top: 55rem;
+    }
+}
+
