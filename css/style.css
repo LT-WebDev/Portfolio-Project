@@ -1039,24 +1039,28 @@ display: none;
         display: none;
     }
 
+    .container-fluid .padding {
+        padding-left: 4%;
+    }
+
     .mt-2 {
         margin-top: 0rem !important;
     }
 
     .section-height {
         height: 50vh;
-        width: 85%;
+        width: 95%;
         position: absolute;
     }
 
 
     /* -- Format card widths and apply transition settings --*/
     .card-size{
-        width: 80%;
+        width: 85%;
         margin: auto;
         margin-bottom: 2rem;
         margin-right: 2rem;
-        margin-left: 2.3rem;
+        margin-left: 2.5rem;
         height: 10rem;
         opacity: 1;
         transition: .5s ease;
