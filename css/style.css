@@ -150,6 +150,8 @@ strong {
     width: 55%;
 } */
 
+
+
 /*--- Media Queries ---*/
 @media (max-width: 2170px) and (max-width: 1312px){
 /* =========================================
@@ -1530,10 +1532,390 @@ display: none;
     }
 
     .footer-height  {
-        height: 35vh;
+        height: 55vh;
         width: 100%;
         position: relative;
-        margin-top: 55rem;
+        margin-top: 150rem;
+        margin-bottom: 0rem;
     }
 }
 
+
+
+
+
+
+/* =========================================
+    PORTFOLIO SECTION
+   ========================================= */
+   .img-background-portfolio {
+    height: 100%;
+    /* background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png"); */
+    background-image: url(../images/laptop-1478822_1920.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+
+   .portfolio-pre-text {
+    background-color: rgba(0, 0, 0, 0.116);
+    text-align: center;
+    height: 50%;
+    margin-top: 5%;
+    padding-top: 5%;
+   }
+
+   .portfolio-pre-text h2 {
+       font-size: 2.8rem;
+       font-family: freight-display-pro;
+       font-weight: 100;
+       font-style: normal;
+       line-height: 1.1em;
+       color: #151515
+       
+   }
+
+   .portfolio-pre-text p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: normal;
+   }
+
+   /* =========================================
+    ABOUT SECTION
+   ========================================= */
+   .img-background-about {
+    height: 100%;
+    /* background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png"); */
+    background-image: url(../images/hello_iphone.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.my-container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.custom-padding {
+    margin-top: 5rem;
+}
+
+.my-container h1 {
+    font-size: 3.5rem;
+    font-family: freight-display-pro;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.1em;
+    color: #151515;
+    margin-top: 1.5rem;
+}
+
+.custom-padding .col-md-6 img {
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 8rem;      
+}
+
+
+.row .col-md-6 img {
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 8rem;      
+}
+
+
+
+.custom-padding .col-md-6 .heading4 { 
+    margin-top: 8rem; 
+    margin-left: 2rem;
+}
+
+.custom-padding .col-md-6 p {
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+ .row .col-md-6 h4 {
+    margin-top: 4.5rem; 
+    margin-left: 25rem;
+}
+
+.col-md-6 .p2 {
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+    text-align: right;
+    text-align: justify;
+    padding-right: 1.8rem;
+}
+
+.background-div {
+    background-color: rgb(243, 245, 247);
+    height: 350px;
+    /* width: 500px; */
+}
+
+   /* =========================================
+    RESUME SECTION
+   ========================================= */
+   .img-background-resume {
+    height: 100%;
+    /* background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png"); */
+    background-image: url(../images/iphone-notebook-pen-working-34578.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.background-section {
+    background-color: #F3EFE0;
+}
+
+.resume-min-text {
+    color: #C4B1AD;
+}
+
+span {
+    margin-left: 2rem;
+}
+
+   /* =========================================
+    CONTACT SECTION
+   ========================================= */
+   .img-background-contact {
+    height: 100%;
+    /* background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png"); */
+    background-image: url(../images/contactTwo.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.btn-md {
+    margin-left: 11.4rem;
+}
+.contact-me-mb {
+    margin-bottom: 10rem;
+}
+
+/* =========================================
+    iPhone 6/7/8 Resolution
+   ========================================= */ 
+
+   @media (max-width: 667px) {
+    
+/* =========================================
+    HEADER SECTION (RESUME)
+   ========================================= */
+    .btn-lg {
+        font-size: 0.9rem !important;
+    }
+/* =========================================
+    HIRE ME TODAY SECTION (RESUME)
+   ========================================= */
+    .fw-sm {
+        font-weight: normal;
+    }
+
+    .display-3 {
+        font-size: 2rem !important;
+        text-align: center !important;
+    }
+
+    .background-div {
+        background-color: rgb(243, 245, 247);
+        height: 300px;
+        width: 550px;
+    }
+
+    .submit-form-resp {
+        margin-left: 0rem !important;
+        margin-top: 0.95rem;
+    }
+
+    .row .col-md-6 h4 {
+        margin-top: 4.5rem; 
+        margin-left: 2rem;
+    }
+
+    .portfolio-pre-text {
+        background-color: rgba(0, 0, 0, 0.116);
+        text-align: center;
+        height: 80%;
+        margin-top: 5%;
+        padding-top: 5%;
+    }
+
+    .mobile-size-heading {
+        font-size: 2.5rem !important;
+    }
+
+    .footer-height-responsive  {
+        height: 55vh;
+        width: 120%;
+        position: relative;
+        margin-top: 45rem;
+        margin-bottom: 2.5rem;
+        justify-self: center;
+    }
+    
+}
+
+
+   
+   @media (max-width: 375px) {
+/* =========================================
+    HTML & BODY SECTION (RESUME)
+   ========================================= */
+       html, body {
+        height: 100%;
+        width: 100%;
+        /* border: 5px solid white; */
+    }  
+
+/* =========================================
+    HEADER SECTION (RESUME)
+   ========================================= */    
+    .btn-lg {
+        font-size: 0.9rem !important;
+    }
+
+    .display-3 {
+        font-size: 2.5rem !important;
+        text-align: center !important;
+    }
+
+/* =========================================
+    HIRE ME TODAY SECTION (RESUME)
+   ========================================= */    
+    .margin-mt-sm {
+        margin-top: 8rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .fw-sm {
+        font-weight: normal;
+    }
+
+    .submit-form-resp {
+        margin-left: 7rem !important;
+        margin-top: 0.95rem;
+    }
+
+    .img-background-about {
+        height: 100%;
+        /* background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png"); */
+        background-image: url(../images/hello_iphone-responsive.jpg);
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;   
+    }
+
+    .about-text {
+        font-size: 1.2rem;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .background-div {
+        background-color: rgb(243, 245, 247);
+        height: 300px;
+        width: 250px;
+    }
+
+    .custom-padding .col-md-6 img {
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 3rem;      
+    }
+
+    .custom-padding .col-md-6 .heading4 { 
+        margin-top: 8rem; 
+        margin-left: 0rem;
+    }
+    
+    .custom-padding .col-md-6 p {
+        margin-top: 1.8rem;
+        margin-left: 0rem;
+        text-align: left;
+    }
+
+    .row .col-md-6 img {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: 2rem;      
+    }
+
+    .row .col-md-6 h4 {
+        margin-top: 4.5rem; 
+        margin-left: 0rem;
+    }
+
+    .col-md-6 .p2 {
+        margin-top: 1.8rem;
+        margin-left: 0rem;
+        text-align: right;
+        text-align: justify;
+        padding-right: 1.8rem;
+    }
+
+    .view-my-work-responsive {
+        margin-top: 1.5rem;
+    }
+
+    .portfolio-pre-text {
+        background-color: rgba(0, 0, 0, 0.116);
+        text-align: center;
+        height: 80%;
+        margin-top: 5%;
+        padding-top: 5%;
+    }
+
+    .mobile-size-heading {
+        font-size: 2.5rem !important;
+    }
+
+    .footer-responsive-resume {
+        margin-top: 0rem;
+    }
+
+    .footer-responsive-contact {
+        margin-top: 0rem;
+    }
+
+    .footer-responsive-index {
+        margin-top: 50rem;
+    }
+
+    .footer-height-responsive {
+        height: 55vh;
+        width: 100%;
+        position: relative;
+        margin-top: 150rem;
+        margin-bottom: 0rem;
+    }
+
+ /* =========================================
+    CONTACT SECTION
+    ========================================= */
+   .img-background-contact {
+    height: 100%;
+    /* background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png"); */
+    background-image: url(../images/contactTwo.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+}
