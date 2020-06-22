@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-family: freight-display-pro;
     /* border: 5px solid white; */
 }
 header {
@@ -8,14 +9,19 @@ header {
     background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash@2x.png");
     background-color: black;
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    max-width: 100%;
 }
 
-
+.navbar-dark{
+    padding-top: 1.25rem;
+    overflow: hidden;
+    color: #3F3F41;
+    opacity: 0.95;
+}
 
 .top-header {
     font-size: 4rem;
-    font-family: 'Baloo Bhai 2', cursive;
     font-weight: 150;
     color: honeydew;
     padding-left: 8rem;
@@ -34,14 +40,14 @@ a {
     font-family: 'Baloo Bhai 2', cursive;
 }
 
-.header-link {
+/* .header-link {
     border: 1px solid burlywood;
     padding: 1rem;
     text-decoration: none;
     transition: transform 200ms ease-in-out;
     color: honeydew;
     font-family: 'Baloo Bhai 2', cursive;
-}
+} */
 
 .padding {
     padding-bottom: 2rem;
@@ -158,10 +164,10 @@ strong {
     NAVBAR SECTION
    ========================================= */
 
-   .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+   /* .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
        font-size: 1rem;
        padding: 1rem;
-   }
+   } */
 /* =========================================
     HEADER SECTION
    ========================================= */
@@ -321,10 +327,10 @@ strong {
     NAVBAR SECTION
    ========================================= */
 
-   .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+   /* .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
     font-size: 1.5rem;
     padding: 1rem;
-}
+} */
 /* =========================================
  HEADER SECTION
 ========================================= */
@@ -511,7 +517,7 @@ strong {
     NAVBAR SECTION
     ========================================= */       
 
-    .navbar-expand-md .container-fluid .navbar-toggler {
+    /* .navbar-expand-md .container-fluid .navbar-toggler {
         background-color: grey;
         opacity: 0.45;
         
@@ -519,7 +525,7 @@ strong {
     .navbar-expand-md .container-fluid .navbar-toggler .navbar-toggler-icon {
         color: black !important;
         width: auto;
-    }
+    } */
 /* =========================================
     HEADER SECTION
    ========================================= */
@@ -725,13 +731,14 @@ strong {
     NAVBAR SECTION
     ========================================= */       
 
-    .navbar-expand-md .container-fluid .navbar-toggler {
-        background-color: cornsilk;
-        color: black;
+    .navbar-dark{
+        padding-top: 2rem;
+        overflow: hidden;
     }
 /* =========================================
     HEADER SECTION
    ========================================= */
+
    .my-border .row .btn {
     font-size: 0.85rem;
     margin-bottom: 1rem;
@@ -1045,10 +1052,10 @@ display: none;
     NAVBAR SECTION
     ========================================= */       
 
-    .navbar-expand-md .container-fluid .navbar-toggler {
+    /* .navbar-expand-md .container-fluid .navbar-toggler {
         background-color: cornsilk;
         color: black;
-    }
+    } */
 /* =========================================
     HEADER SECTION
    ========================================= */
@@ -1245,7 +1252,12 @@ display: none;
 }     
     /* =========================================
     NAVBAR SECTION
-    ========================================= */       
+    ========================================= */
+    
+    .navbar{
+        position: absolute;
+    }
+
 
 
 /* =========================================
@@ -1272,12 +1284,20 @@ display: none;
     .margin-left-header {
         margin-left: 15px;
     }
+
+    .my-border{
+        padding-top: 4rem;
+    }
    .my-border .row .btn {
     font-size: 10px;
     }
     .my-border .row .btn-outline-light {
         margin-left: 20px;
-    }      
+    }
+    
+    .my-border .ml-0 {
+        margin-left: -140px !important;
+    }
 
     .my-border .row .ml-0 {
         position: absolute;
@@ -1312,6 +1332,7 @@ display: none;
 }  
 .lead {
     font-size: 0.85rem;
+    font-weight: normal;
 }
 
 .container-fluid .row .col-md-4 .temp-div .card {
@@ -1708,12 +1729,24 @@ span {
     margin-bottom: 10rem;
 }
 
+.contact-me-mb .display-3{
+    font-size: 1.6rem !important;
+}
+
+
+
 /* =========================================
     iPhone 6/7/8 Resolution
    ========================================= */ 
 
    @media (max-width: 667px) {
     
+/* =========================================
+    HEADER SECTION (Home Page)
+   ========================================= */
+
+
+
 /* =========================================
     HEADER SECTION (RESUME)
    ========================================= */
