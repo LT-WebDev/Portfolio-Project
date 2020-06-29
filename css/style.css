@@ -700,7 +700,7 @@ strong {
     FOOTER SECTION
    ========================================= */ 
    .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
-        display: none;
+        
     }
     .container-fluid .row .col-12 {
         font-size: 1.3rem;
@@ -792,6 +792,7 @@ strong {
 }  
 .lead {
     font-size: 0.85rem;
+    font-style: normal;
 }
 
 .container-fluid .row .col-md-4 .temp-div .card {
@@ -814,7 +815,7 @@ strong {
 }
 .container-fluid .row .col-md-4 .card .card-body .card-text {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.85em;
 }
 .container-fluid .row .col-md-4 .card .card-body .btn-outline-secondary {
 display: none;
@@ -986,7 +987,6 @@ display: none;
 
      .lead {
         font-size: 1.1rem;
-        font-weight: bold;
     } 
 
 
@@ -1015,7 +1015,7 @@ display: none;
     FOOTER SECTION
    ========================================= */ 
    .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
-    display: none;
+    
 }
 
 .description .container-fluid .row .col-12 .display-3 {
@@ -1226,7 +1226,7 @@ display: none;
     FOOTER SECTION
    ========================================= */ 
    .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
-        display: none;
+        
     }
     .container-fluid .row .col-12 {
         font-size: 1.3rem;
@@ -1254,11 +1254,10 @@ display: none;
     NAVBAR SECTION
     ========================================= */
     
-    .navbar{
-        position: absolute;
+
+    .navbar-toggler {
+        border: 5px #3F3F41;
     }
-
-
 
 /* =========================================
     HEADER SECTION
@@ -1266,7 +1265,6 @@ display: none;
    
    .top-header {
     font-size: 2.5rem;
-    font-family: 'Baloo Bhai 2', cursive;
     font-weight: 150;
     color: honeydew;
     padding-left: 1rem;
@@ -1322,8 +1320,6 @@ display: none;
 .container-fluid .welcome .col {
     margin-right: 3rem;
     margin-left: 3rem;
-    
-    
 }
 
 .container-fluid .welcome .col .display-4 {
@@ -1331,7 +1327,8 @@ display: none;
     
 }  
 .lead {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
+    text-align: justify;
     font-weight: normal;
 }
 
@@ -1339,7 +1336,7 @@ display: none;
     width: 75%;
     height: 12rem;
     margin-bottom: 2rem;
-    margin-left: 3rem;
+    margin-left: 1.85rem;
 }
 
 .container-fluid .row .col-md-4 .temp-div .card .card-body {
@@ -1349,7 +1346,7 @@ display: none;
 }
 
 .container-fluid .row .col-md-4 .card .card-body .card-title {
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
     padding-bottom: 1em;
 }
@@ -1384,6 +1381,8 @@ display: none;
     MY PROJECT'S STYLING SECTION
     ========================================= */
 
+   
+
     /* -- Hide Card Images --*/
     .card-size img {
         display: none;
@@ -1401,6 +1400,10 @@ display: none;
         height: 50vh;
         width: 96%;
         position: absolute;
+    }
+
+    .container-fluid .row .col-md-4 .card-size {
+        margin-left: 1.92rem;
     }
 
 
@@ -1532,8 +1535,14 @@ display: none;
 /* =========================================
     FOOTER SECTION
    ========================================= */ 
-   .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
-        display: none;
+   .navbar .container-fluid .col-4 .nav-link{
+        font-size: 0.65em;
+    }
+
+    .navbar .container-fluid .col-4 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
     }
 
     .description .container-fluid .row .col-12 .display-3 {
