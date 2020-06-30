@@ -721,6 +721,53 @@ strong {
 
 }
 
+@media (min-width: 667px){
+    /* =========================================
+    FOOTER SECTION
+   ========================================= */ 
+
+
+.description .container-fluid .row .col-12 .display-5 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 0.65rem;
+    margin-bottom: 0rem;
+}
+
+.container-fluid .row .col-12 {
+    font-size: 0.70rem;
+    bottom: 0rem;
+    padding-left: 0rem;
+}
+.ml-2 {
+    margin-left:25% !important;
+}
+
+.footer-height  {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    margin-top: 2.5rem;
+    justify-self: center;
+}
+
+.navbar .container-fluid .col-4 .nav-link{
+    font-size: 0.95em;
+    margin-left: 1.75rem;
+}
+
+.navbar .container-fluid .col-4 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container-fluid .mt-5{
+    margin-top: 0rem !important;
+}
+}
+
 @media (max-width: 667px){
     
     html, body {
@@ -1011,36 +1058,9 @@ display: none;
 
 
 
-/* =========================================
-    FOOTER SECTION
-   ========================================= */ 
-   .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
-    
-}
 
-.description .container-fluid .row .col-12 .display-3 {
-    text-align: center;
-    font-size: 1.4rem;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-}
 
-.container-fluid .row .col-12 {
-    font-size: 0.70rem;
-    bottom: 0rem;
-    padding-left: 0rem;
-}
-.ml-2 {
-    margin-left:25% !important;
-}
 
-.footer-height  {
-    height: 55vh;
-    width: 120%;
-    position: relative;
-    margin-top: 5rem;
-    justify-self: center;
-}
 }
 
 
@@ -1587,6 +1607,10 @@ display: none;
     background-repeat: no-repeat;   
 }
 
+    span {
+        display: block;
+    }
+
 
    .portfolio-pre-text {
     background-color: rgba(0, 0, 0, 0.116);
@@ -1597,18 +1621,18 @@ display: none;
    }
 
    .portfolio-pre-text h2 {
-       font-size: 2.8rem;
-       font-family: freight-display-pro;
-       font-weight: 100;
-       font-style: normal;
+       margin-top: 2em;
+       font-size: 1.2rem;
+       text-transform: uppercase;
+       font-weight: 200;
        line-height: 1.1em;
        color: #151515
        
    }
 
    .portfolio-pre-text p {
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 5rem;
     font-style: normal;
    }
 
@@ -1751,7 +1775,7 @@ span {
    @media (max-width: 667px) {
     
 /* =========================================
-    HEADER SECTION (Home Page)
+    FOOTER SECTION (Home Page)
    ========================================= */
 
 
