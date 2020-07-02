@@ -699,9 +699,6 @@ strong {
 /* =========================================
     FOOTER SECTION
    ========================================= */ 
-   .navbar .container-fluid .collapse .navbar .col-1 .nav-link{
-        
-    }
     .container-fluid .row .col-12 {
         font-size: 1.3rem;
     }
@@ -744,7 +741,7 @@ strong {
 }
 
 .footer-height  {
-    height: 75vh;
+    height: 25vh;
     width: 100%;
     position: relative;
     margin-top: 2.5rem;
@@ -761,6 +758,7 @@ strong {
     flex-direction: row;
     text-align: center;
     margin-bottom: 1rem;
+    margin-left: 35.75rem;
 }
 
 .container-fluid .mt-5{
